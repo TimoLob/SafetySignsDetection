@@ -27,3 +27,14 @@ https://universe.roboflow.com/signs-ipufk/synth-rcgnr
 
 https://universe.roboflow.com/sicherheitskennzeichnung/safety-signs-germany
 
+## Training a model
+
+Run the Train YoloV7 Notebook in google colab and follow instructions in the notebook.
+The training data is downloaded from Roboflow, adjust dataset and api key accordingly.
+
+## Validating the performance of a model
+
+Run the Validate YOLOV7 notebook in colab.
+Right now, the weights for the trained model are downloaded from a hardcoded google drive location. Adjust this for your use case.
+
+The validation dataset is downloaded from Roboflow, again adjust this and the api key.
